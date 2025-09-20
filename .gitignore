@@ -1,0 +1,26 @@
+# ide
+.idea/
+.vscode/
+
+# macos
+.DS_Store
+
+# build
+build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-wsl_profile_debug/
+
+# *.csv
+src/test/performance_test/table_data/
+
+# bison & flex
+src/parser/lex.yy.h
+src/parser/lex.yy.hpp
+src/parser/lex.yy.cpp
+src/parser/yacc.tab.h
+src/parser/yacc.tab.cpp
+src/parser/yacc.tab.hpp
+
+# python
+__pycache__/
